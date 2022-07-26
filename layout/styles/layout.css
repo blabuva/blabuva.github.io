@@ -23,7 +23,7 @@ File: Layout CSS
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
-#topbar{padding:15px 0; font-size:.8rem; text-transform:uppercase;}
+#topbar{padding:15px 0; font-size:.8rem; }
 
 #topbar *{margin:0;}
 #topbar ul li{display:inline-block; margin-right:10px; padding-right:15px; border-right:1px solid;}
@@ -37,7 +37,7 @@ File: Layout CSS
 
 #header #logo{margin-top:25px;}
 #header #logo *{margin:0; padding:0; line-height:1;}
-#header #logo h1{font-size:22px; font-variant:small-caps;}
+#header #logo h1{font-size:16px; }
 #header #logo p{font-size:12px; text-transform:lowercase;}
 
 
@@ -45,7 +45,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:150px 0;}
 
-#pageintro article *{text-transform:uppercase;}
+/* #pageintro article *{text-transform:uppercase;} */
 #pageintro article .heading{margin:0 0 50px 0; padding:0; line-height:1; font-size:64px;}
 #pageintro article p:first-of-type{margin-bottom:20px; font-size:26px;}
 #pageintro article footer{margin-top:80px;}
@@ -139,7 +139,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 /* Top Navigation */
 #mainav{}
 #mainav ul.clear{margin-top:3px;}
-#mainav ul{text-transform:uppercase;}
+/* #mainav ul{text-transform:uppercase;} */
 #mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none;}
 #mainav ul ul ul{left:180px; top:0;}
 #mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
@@ -162,7 +162,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Breadcrumb */
 #breadcrumb{padding:15px 0;}
-#breadcrumb ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
+#breadcrumb ul{margin:0; padding:0; list-style:none;}
 #breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
 #breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
 #breadcrumb li a::after{top:3px; right:0; content:"\f101";}
@@ -235,7 +235,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#474747; background-color:#F7F7F7;}
+body{color:#474747; background-color:#15d180;}
 a{color:#B97D2D;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -244,25 +244,25 @@ input:focus, textarea:focus, *:required:focus{border-color:#B97D2D;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#B97D2D; border-color:#B97D2D;}
-.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#007bff; border-color:#B97D2D;}
+.btn:hover, .btn.inverse{color:#007bff; background-color:transparent; border-color:inherit;}
 
 
 /* Rows */
 .row0, .row0 a{color:#474747; background-color:#F7F7F7;}
-.row1{color:#474747; background-color:#FFFFFF;}
+.row1{color:#2ff508; background-color:black;}
 .row2, .row2 a{}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#474747; background-color:#F7F7F7;}
 
 
 /* Top Bar */
-#topbar ul li{border-color:rgba(255,255,255,.2);}
+#topbar ul li{border-color:rgba(237, 0, 0, 0.725);}
 #topbar > div:last-of-type li:first-child a{color:#B97D2D;}
 
 
 /* Header */
-#header #logo h1 a{color:inherit; background-color:inherit;}
+#header #logo h1 a{color: #2ff508; background-color:inherit;}
 
 
 /* Page Intro */
@@ -276,7 +276,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#B97D2D;}
 
 
 /* Content Area */
-.cta article i{color:#B97D2D; border-color:#D7D7D7;}
+.cta article i{color:#cbf706; border-color:#D7D7D7;}
 .cta article:hover i{color:#FFFFFF; background-color:#B97D2D; border-color:#B97D2D;}
 
 
@@ -286,7 +286,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#B97D2D;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#B97D2D; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#06def6; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#B97D2D;}
 #mainav form select{color:#FFFFFF; background-color:#413E3D;}
